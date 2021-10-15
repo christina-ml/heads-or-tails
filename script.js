@@ -5,21 +5,22 @@ let tails = document.querySelector("#tails");
 let headOrTails = ["heads", "tails"];
 let numArr = [1, 2];
 
-if (Math.floor(Math.random() * 2) === numArr[0]) {
-    console.log(`${headOrTails[0]} won`);
-    heads.style.color = "red";
-    tails.style.display = "none";
-} else {
-    console.log(`${headOrTails[1]} won`);
-    tails.style.color = "red";
-    heads.style.display = "none";
-}
+tails.classList.add("hidden");
+heads.classList.add("hidden");
 
-form = document.querySelector("#form");
-startButton = document.querySelector("#start-button");
 
-form.addEventlistener("click", (event)=>{
+document.querySelector("form").addEventListener("submit", (event)=>{
     event.preventDefault();
 
-    
+    if (Math.floor(Math.random() * 3) === numArr[0]) {
+        console.log(`${headOrTails[0]} won`);
+        heads.style.color = "red";
+        heads.classList.remove("hidden");
+        tails.classList.add("hidden");
+    } else {
+        console.log(`${headOrTails[1]} won`);
+        tails.style.color = "red";
+        tails.classList.remove("hidden");
+        heads.classList.add("hidden");
+    }     
 })
