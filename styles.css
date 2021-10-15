@@ -1,5 +1,14 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "form"
+    "directions";
+}
+
 header {
     text-align: center;
+    grid-area: header;
 }
 
 form {
@@ -21,6 +30,10 @@ form {
     display: none;
 }
 
+form {
+    grid-area: form;
+}
+
 form input {
     margin: 15px;
 }
@@ -30,7 +43,7 @@ form input {
     text-align: center;
 }
 
-p {
+#directions {
+    grid-area: directions;
     text-align: center;
-    margin: 0 auto;
 }
