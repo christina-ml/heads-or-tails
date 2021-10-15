@@ -24,6 +24,7 @@ form {
     border-radius: 50%;
     background-image: url("./assets/smiley-face.png");
     background-size: contain;
+    animation: spinning 5s;
 }
 
 .hidden {
@@ -52,3 +53,13 @@ form input {
     grid-area: directions;
     text-align: center;
 }
+
+
+@keyframes spinning {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(720deg);
+    }
+  }
