@@ -13,7 +13,6 @@ form {
     height: 50px;
     padding: 50px;
     border-radius: 50%;
-    /* border: 5px double gray; */
     background-image: url("./assets/smiley-face.png");
     background-size: contain;
 }
