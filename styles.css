@@ -16,20 +16,23 @@ form {
 }
 
 #coin {
+    position: relatve;
+    transform-style: preserve-3d;
+    /* background-color: darkgray;
     margin: 0 auto;
-    background-color: darkgray;
     width: 50px;
     height: 50px;
     padding: 50px;
     border-radius: 50%;
-    background-image: url("./assets/smiley-face.png");
     background-size: contain;
-    animation: spinning 5s;
+    background-image: url("./assets/smiley-face.png"); */
+    animation: spinning 2s infinite linear;
+    animation-play-state: paused;
 }
 
-.hidden {
+/* .hidden {
     display: none;
-}
+} */
 
 form {
     grid-area: form;
@@ -44,22 +47,41 @@ form input {
     background-color: lightgrey;
 }
 
-#side {
+#side-a {
+    position: absolute;
     margin: 15px auto;
     text-align: center;
+    height: 200px;
+    z-index: 1;
+    backface-visibility: hidden;
+
 }
+
+#side-b {
+    margin: 15px auto;
+    text-align: center;
+    height: 200px;
+    transform: scaleX(-1);
+}
+
 
 #directions {
     grid-area: directions;
     text-align: center;
 }
 
-
 @keyframes spinning {
     from {
       transform: rotateY(0deg);
     }
     to {
-      transform: rotateY(720deg);
+      transform: rotateY(360deg);
     }
   }
+
+/*
+0 degrees: heads
+180: tails
+360: heads
+720: tails
+*/
