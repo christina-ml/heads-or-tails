@@ -51,7 +51,7 @@ form input {
     position: absolute;
     margin: 15px auto;
     text-align: center;
-    height: 200px;
+    height: 150px;
     z-index: 1;
     backface-visibility: hidden;
 
@@ -60,7 +60,7 @@ form input {
 #side-b {
     margin: 15px auto;
     text-align: center;
-    height: 200px;
+    height: 150px;
     transform: scaleX(-1);
 }
 
