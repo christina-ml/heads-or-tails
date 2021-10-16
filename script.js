@@ -9,10 +9,14 @@ document.querySelector("form").addEventListener("submit", (event)=>{
 
     coin.style.animationPlayState = "running";
 
-    // const timeNum = Math.floor(Math.random() * 3000);
+
+    const timeNum = (Math.floor(Math.random() * 10) + 1) * 1000;
+    console.log(timeNum);
+
+
     setTimeout(function(){
         coin.style.animationPlayState = "paused";
-    }, 4000);
+    }, timeNum);
 
     // if (Math.floor(Math.random() * 3) === numArr[0]) {
     // } else {
