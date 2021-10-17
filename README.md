@@ -29,3 +29,7 @@ Screenshots to show how this works.
 
 ### Tails - Tails Won!
 ![tails](https://user-images.githubusercontent.com/65386414/137606088-181a7793-143a-4ed0-b0d7-3f68fb10d2aa.png)
+
+
+### Animation for Flip! (gif)
+![ezgif-2-86556b6b46d8](https://user-images.githubusercontent.com/65386414/137606341-85513265-ce6a-4a2b-ab9d-6e054f5b4e5e.gif)
