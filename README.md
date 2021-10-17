@@ -23,13 +23,9 @@ This is a personal project to practice using forms and event listeners, HTML, CS
 
 Screenshots to show how this works.
 
-### Default - on page load
-![default](https://user-images.githubusercontent.com/65386414/137545588-7e6eab07-7491-410d-8f79-94afe8bdc426.png)
-
-
-### Heads - Heads Won!
-![heads](https://user-images.githubusercontent.com/65386414/137545585-9c995e51-9f83-4402-aff5-f8b27a568ac8.png)
+### Default/Heads - on page load/Heads Won!
+![default-heads](https://user-images.githubusercontent.com/65386414/137606078-c1b8a5dc-4a2e-4e36-914a-66c4d32664d9.png)
 
 
 ### Tails - Tails Won!
-![tails](https://user-images.githubusercontent.com/65386414/137545586-fec07b02-9178-446e-92f1-b11a20111125.png)
+![tails](https://user-images.githubusercontent.com/65386414/137606088-181a7793-143a-4ed0-b0d7-3f68fb10d2aa.png)
